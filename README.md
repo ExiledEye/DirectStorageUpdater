@@ -4,6 +4,8 @@ Lightweight standalone tool (.exe) that scans current DirectStorage .dll files, 
 
 <img title="Program" alt="Program" src="./screenshots/Horizon Forbidden West.png" width="100%">
 
+More info: https://www.nexusmods.com/games/site/mods/1982
+
 ## Features
 
 - Reads the FileVersion of `dstorage.dll` and `dstoragecore.dll` from the game folder.
@@ -16,15 +18,11 @@ Lightweight standalone tool (.exe) that scans current DirectStorage .dll files, 
 - Shows cumulative changelog from your current version to the version you updated to.
 - Automatically checks for updates
 
----
-
 ## Requirements
 
 - Windows x64.
 - .NET 8 Runtime **or** publish as self-contained (see below).
 - Internet access to `api.nuget.org`.
-
----
 
 ## Build
 
@@ -41,8 +39,6 @@ Or if you want a smaller binary that requires .NET 8 to be installed:
 dotnet publish -c Release -r win-x64 --self-contained false /p:PublishSingleFile=true
 ```
 
----
-
 ## Usage
 
 1. Copy `DirectStorageUpdater.exe` into the game's root folder (same folder as `dstorage.dll` and `dstoragecore.dll`)
@@ -55,7 +51,6 @@ dotnet publish -c Release -r win-x64 --self-contained false /p:PublishSingleFile
 Contains:
 - `dstorage.dll`
 - `dstoragecore.dll`
-
 
 ## NuGet package DLL path
 
