@@ -44,14 +44,6 @@ dotnet publish -c Release -r win-x64 --self-contained false /p:PublishSingleFile
 1. Copy `DirectStorageUpdater.exe` into the game's root folder (same folder as `dstorage.dll` and `dstoragecore.dll`)
 2. Run it
 
-## Backup folder format
-
-`_dstorage_backup_YYYYMMDD_HHMMSS_vX_Y_Z\`
-
-Contains:
-- `dstorage.dll`
-- `dstoragecore.dll`
-
 ## NuGet package DLL path
 
 DLLs are extracted from inside the `.nupkg` at:
