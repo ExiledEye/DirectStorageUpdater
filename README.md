@@ -63,8 +63,7 @@ native/bin/x64/dstoragecore.dll
 ## Notes
 
 - The tool reads the **FileVersion** from the .dll present at runtime. 
-- NuGet version list is fetched live; no hardcoded version list.
-- Changelog is fetched from nuget.
+- NuGet version list and changelog is fetched live.
 - If extraction fails for whatever reason, the backup is automatically restored.
 
 ## Support
