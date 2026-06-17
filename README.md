@@ -1,4 +1,4 @@
-# DirectStorage Updater
+# DirectStorageUpdater
 
 Lightweight standalone tool (.exe) that scans current DirectStorage .dll files, checks for available updates, perform backup of the existing version of the files and replaces them with newer version if available. Designed to simplify maintenance and keep DirectStorage components up to date without manual file handling.
 
